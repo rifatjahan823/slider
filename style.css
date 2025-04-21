@@ -1,0 +1,50 @@
+ .container{
+    max-width: 1400px;
+    margin-left: auto;
+}
+.time-nav {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.time {
+    background: #e0f0ec;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.time.active {
+    background: #00894d;
+    color: white;
+}
+
+.slilder-content{
+    display: flex; 
+    gap: 50px;
+    overflow: hidden;
+}
+
+.slider{
+    display: flex;
+    gap: 30px;
+}
+
+.slide{
+    width: 380px;
+    border: 1px solid #f2f2f2;
+    box-shadow: 0 4px 25px #00000003;
+    transition: transform 0.5s ease;
+}
+
+.slide img{
+    width: 100%;
+} 
+
